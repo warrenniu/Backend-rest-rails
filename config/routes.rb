@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :users do
         resources :facts
       end
+      resources :api-docs 
     end
   end
 end
